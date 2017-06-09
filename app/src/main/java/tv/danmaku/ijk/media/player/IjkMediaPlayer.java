@@ -67,7 +67,7 @@ public final class IjkMediaPlayer {
     static {
         System.loadLibrary("ijkffmpeg");
         System.loadLibrary("ijksdl");
-        System.loadLibrary("ijksoundtouch");
+//        System.loadLibrary("ijksoundtouch");
         System.loadLibrary("ijkplayer");
     }
     private static volatile boolean mIsNativeInitialized = false;
